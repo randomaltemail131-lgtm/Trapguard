@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "trapguard",
+  "version": "${version}",
+  "name": "TrapGuard",
+  "description": "Client-side trap and redstone integrity monitoring using saved block-state snapshots.",
+  "authors": ["randomecho"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.randomecho.trapguard.client.TrapGuardClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
